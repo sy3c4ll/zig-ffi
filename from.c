@@ -22,7 +22,7 @@ int sum(int a, int b) {
   return a + b;
 }
 
-/*struct from from_init(int i, float f, uint64_t u) {
+struct from from_init(int i, float f, uint64_t u) {
   struct from new = {i, f, u};
   return new;
-}*/
+}
